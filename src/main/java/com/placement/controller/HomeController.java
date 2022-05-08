@@ -100,6 +100,7 @@ public class HomeController
 	public String logout(RedirectAttributes ra)
 	{   ra.addFlashAttribute("smessage", "You have been logged out successfully.");
 		return "redirect:/student/signin";
+		//return "redirect:/";
 	}
 	
 	@RequestMapping("/sdetails/{sid}")
